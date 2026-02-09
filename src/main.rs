@@ -8,7 +8,7 @@ fn main() -> anyhow::Result<(), Error> {
     let img = image::open("images/bus.jpg")?;
     
     let result = yolo::predict(
-        r#"C:\Users\xonbi\Desktop\project\python\sora-wmr\models\yolo11n.onnx"#,
+        r#"models\yolo11n.onnx"#,
         img,
     )?;
     
