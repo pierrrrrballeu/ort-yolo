@@ -1,0 +1,11 @@
+[package]
+name = "orrrrt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.101"
+image = "0.25.9"
+imageproc = "0.26.0"
+ndarray = "0.17.2"
+ort = { version = "2.0.0-rc.11", features = ["download-binaries"] }
